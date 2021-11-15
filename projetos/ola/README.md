@@ -1,5 +1,7 @@
 # Ola
 
+![Ola](https://github.com/marcio-henrique/computacao-grafica/blob/main/projetos/ola/imgs/ola.png)
+
 ## Especificações:
 
 Construir uma aplicação que simule a ocorrência de uma "ola" (onda) a partir de quadrados desenhados na janela de desenho.
