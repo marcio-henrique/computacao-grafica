@@ -40,7 +40,7 @@ static void resize(int width, int height)
     glOrtho(-10, 10, -10, 10, 1, -1);
 }
 
-static void * display(void)
+static void display(void)
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
 
     glutReshapeFunc(resize);
 
-    glutDisplayFunc(reinterpret_cast<void (*)(void)>(display));
+    glutDisplayFunc(display);
     glutKeyboardFunc(reinterpret_cast<void (*)(unsigned char, int, int)>(key));
     glutIdleFunc(idle);
 
