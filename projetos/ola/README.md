@@ -1,6 +1,6 @@
 # Ola
 
-![Ola](https://github.com/marcio-henrique/computacao-grafica/blob/main/projetos/ola/imgs/ola.png)
+![Ola](https://github.com/marcio-henrique/computacao-grafica/blob/main/imgs/ola.png)
 
 ## Especificações:
 
