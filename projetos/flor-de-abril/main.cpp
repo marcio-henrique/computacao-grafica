@@ -2,10 +2,6 @@
 #include <GL/glut.h>
 #include <math.h>
 
-#include <iostream>
-using namespace std;
-
-
 float speed_angle = M_PI / 4;
 float angle = 10;
 
