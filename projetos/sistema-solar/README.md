@@ -14,8 +14,8 @@ Criar um sistema solar com 5 planetas em OpenGL que apresente o movimento de Tra
 ## Considerações
 
 - Teclas:
-  - 'y': translação da direita para a esquerda
-  - 'Y': translação da esquerda para a direita
+  - 'y': translação da esquerda para a direita
+  - 'Y': translação da direita para a esquerda
  
 - Link do vídeo com a execução do programa: [aqui](https://www.loom.com/share/4cb13560c9df4293a7ee98aa7a719348)
 
