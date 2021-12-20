@@ -31,26 +31,29 @@ void displaySpheres (void) {
     glutWireSphere(0.09, 16, 16);    /* desenha um planeta */
     glPopMatrix();
 
+    /*Planeta com luas*/
     glPushMatrix();
     glColor3f(CINZA);
     glRotatef ((GLfloat) year, 0.0, 1.2, 0.0);
     glTranslatef(2.0, 0, 0);
     glPushMatrix();
-    glutWireSphere(0.2, 16, 16); // Generate moon
+    glutWireSphere(0.2, 16, 16);
     glPopMatrix();
 
+    //lua 1
     glPushMatrix();
     glColor3f(LARANJA);
     glRotatef (1.7 * year, 0.0, 1.1, 0.0);
     glTranslatef(0.3, 0, 0);
-    glutWireSphere(0.05, 16, 16); // Generate moon
+    glutWireSphere(0.05, 16, 16);
     glPopMatrix();
 
+    //lua 2
     glPushMatrix();
     glColor3f(CYAN);
     glRotatef (2.1 * year, 1.1, 1.1, 0.0);
     glTranslatef(0.3, 0, 0);
-    glutWireSphere(0.03, 16, 16); // Generate moon
+    glutWireSphere(0.03, 16, 16);
     glPopMatrix();
     glPopMatrix();
 
@@ -58,21 +61,21 @@ void displaySpheres (void) {
     glColor3f(AZUL);
     glRotatef (0.2 * year, 0.0, 1.3, 0.0);
     glTranslatef(3.45, 0, 0);
-    glutWireSphere(0.3, 16, 16); // Generate moon
+    glutWireSphere(0.3, 16, 16);
     glPopMatrix();
 
     glPushMatrix();
     glColor3f(VERDE);
     glRotatef (2 * year, 0.0, 1.4, 0.0);
     glTranslatef(1.2, 0, 0);
-    glutWireSphere(0.1, 16, 16); // Generate moon
+    glutWireSphere(0.1, 16, 16);
     glPopMatrix();
 
     glPushMatrix();
     glColor3f(ROSEO);
     glRotatef (3 * year, 0.0, 1.5, 0.0);
     glTranslatef(3.1, 0, 0);
-    glutWireSphere(0.24, 16, 16); // Generate moon
+    glutWireSphere(0.24, 16, 16);
     glPopMatrix();
 
 
